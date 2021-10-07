@@ -33,9 +33,9 @@ int main(){
         }
 
 BubbleSort(a,n);
-
+ cout<<"Sorted array is: "<<endl;
         for(int i=0;i<n;i++){
-            cout<<a[i]<<endl;
+            cout<<a[i]<<" ";
         }
 
     return 0;
